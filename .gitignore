@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+.module-cache
+node_modules
+public

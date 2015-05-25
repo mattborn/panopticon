@@ -1,0 +1,45 @@
+{
+  "name": "panopticon",
+  "version": "0.1.0",
+  "description": "Starter project for building front-end with React + back-end API with express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/forever/bin/forever server.js",
+    "postinstall": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattborn/stack"
+  },
+  "author": "Matt Born <me+code@mattborn.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattborn/stack/issues"
+  },
+  "homepage": "https://github.com/mattborn/stack",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.1.x"
+  },
+  "dependencies": {
+    "6to5": "^2.12.3",
+    "6to5-loader": "^2.0.0",
+    "connect": "^3.3.4",
+    "express": "^4.12.4",
+    "firebase": "^2.1.1",
+    "forever": "^0.13.0",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-copy": "0.0.2",
+    "gulp-util": "^3.0.2",
+    "gulp-webpack": "^1.4.0",
+    "react": "^0.12.2",
+    "react-router": "^0.11.6",
+    "reactfire": "^0.4.0",
+    "serve-static": "^1.8.0",
+    "webpack": "^1.4.15"
+  },
+  "devDependencies": {
+    "tiny-lr": "^0.1.4"
+  }
+}
