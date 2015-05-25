@@ -14,6 +14,7 @@ module.exports = {
     ]
   },
   externals: {
-    'firebase': 'Firebase'
+    'firebase': 'Firebase',
+    'jquery': '$'
   }
 };
